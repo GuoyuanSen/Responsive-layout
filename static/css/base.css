@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+a,
+u {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 62.5% !important;
+  font-family: PingFangSC-Regular;
+  -webkit-text-size-adjust: 100% !important;
+  text-size-adjust: 100% !important;
+  -moz-text-size-adjust: 100% !important;
+  overflow-x: hidden;
+}
+
+input {
+  border: none
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+
+  /*兼容处理盒模型*/
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+  /*去除移动高亮事件*/
+  -moz-webkit-tap-highlight-color: transparent;
+  -ms-webkit-tap-highlight-color: transparent;
+  -o-webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /*height: 100%;*/
+}
